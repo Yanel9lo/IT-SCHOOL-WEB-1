@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,900&display=swap');
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background:linear-gradient(#1E90FF,#87CEFA);
+    color:#fff;
+    box-shadow: 1px 6px 12px black;
+    border: 6px solid linear-gradient(#1E90FF,#87CEFA);
+    border-radius: 25px;
+}
+.header_section{
+    display: flex;
+    align-items:baseline;
+}
+.header_item{
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    text-decoration: underline;
+}
+.headerlogo{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    text-shadow: 1px 5px 5px black;
+    color:#F0E68C;
+    text-decoration: none;
+}
+.headerButton{
+    text-shadow: 1px 1px 2px black;
+}
+.headerButton:hover{
+    background-color:#FF9900;
+    border-radius: 4px
+}
+.footer{
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 2px;
+    background: black;
+    color: #F0FFFF;
+    width: 100%;
+    box-shadow: 3px 6px 5px black;
+    border-top: 1px groove #000000;
+    opacity: .7;
+    text-shadow: 1px 1px 2px lightgrey;
+}
+.footer_name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+    padding: 2px;
+    text-shadow: none;
+    background: #3b3b3b;
+    border-radius: 5px;
+    width: 12%;
+}
+.footer_name2{
+    padding: 2px;
+    color: rgb(180, 180, 180);
+}
+.a2{
+    color:#ffffff;
+}
+.footer_item{
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(100, 100, 100);
+    color:#ffffff;
+    opacity: 1;
+    font-family: 'Share Tech Mono', monospace;
+}
+body{
+    background: url(lake-6632026.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.a2:hover{
+    background-color: #051a2c;
+    border-radius: 3px
+}
+#inst{
+    color: #FFA500;
+}
+#VK{
+    color: #4682B4;
+}
+.mine_block{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+    background: white center no-repeat ;
+    height: 1000px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px #000000;
+    width: 75%;
+}
